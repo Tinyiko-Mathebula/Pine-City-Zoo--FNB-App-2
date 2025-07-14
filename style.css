@@ -1,0 +1,199 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+/*============ HEADER ============*/
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('images/wood-bg.png');
+    background-repeat: repeat-x;
+}
+
+#header img {
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+
+/*============ TOP-TAB ============*/
+#tabs-top {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 40px;
+    background-color: darkgreen;
+}
+
+#tabs-top a {
+    float: left;
+    display: block;
+    width: 33.33%;
+    height: 35px;
+    font-weight: 700; /* FIXED: Removed incorrect percentage */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+/*============ MAIN HOME ============*/
+#main-home {
+    margin-top: 120px;
+}
+
+/*============ BOTTOM TABS ============*/
+#tabs-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 40px;
+    background-color: forestgreen;
+}
+
+#tabs-bottom a {
+    float: left;
+    display: block;
+    width: 50%;
+    height: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    box-sizing: border-box;
+}
+
+/*============ MAIN ============*/
+#main {
+    margin-top: 119px;
+    background: url('images/map-blur.png');
+    background-repeat: repeat-y;
+}
+
+#content {
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+/*============ INFO BOX ============*/
+a.info-box {
+    text-decoration: none;
+    background: white;
+    width: 90%;
+    min-height: 80px;
+    display: block;
+    margin: 12px auto 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.info-box img {
+    height: 60px;
+    margin-right: 10px;
+    float: left;
+}
+
+.info-box h3 {
+    margin: 0;
+    padding: 0;
+    color: #131313;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.info-box img.right {
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+/*============ INFO BOX FULL ============*/
+#info-box-full {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    display: block;
+    margin: 12px auto 0 auto;
+    padding: 10px;
+}
+
+#info-box-full img {
+    width: 100%;
+}
+
+#info-box-full h3 {
+    text-align: center;
+}
+
+/*============ WEATHER ============*/
+.weather-box {
+    background-color: white;
+    width: 90%;
+    margin: 12px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+h1.info-box-weather-icon {
+    font-size: 65px;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+td {
+    border-top: 1px solid #131313; 
+    padding: 8px;
+}
+
+/*============ FORM ============*/
+input {
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea {
+    width: 100%;
+    height: 80px; /* Adjusted from 25px for better usability */
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button {
+    display: block;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+    border: none;
+    cursor: pointer;
+}
